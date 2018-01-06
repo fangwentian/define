@@ -1,5 +1,5 @@
 # define.js
-学习nej的define模块后，自己写的一个简化版本。代码量大大减少，由1200行到现在的150行。大大简化了对define的理解。
+学习nej的define模块后，自己写的一个简化版本。代码量大大减少，由1200行到现在的150行。简化了对define的理解。
 
 > 去掉了对特殊文件的处理如text!../index.html, json!./vars.json。去掉了特殊变量的处理如pro、lib等。在define入口方法的逻辑上有差异，nej的define方法是直接给所有的script挂载监听函数，然后再执行正在的_doDefine，此处改为在define里就调用_doDefine。
 
