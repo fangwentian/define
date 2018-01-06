@@ -1,0 +1,24 @@
+{
+  "name": "define",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fangwentian/define.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fangwentian/define/issues"
+  },
+  "homepage": "https://github.com/fangwentian/define#readme",
+  "devDependencies": {
+    "koa": "^2.4.1",
+    "koa-static": "^4.0.2"
+  }
+}
